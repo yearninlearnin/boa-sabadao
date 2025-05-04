@@ -4,7 +4,7 @@ provider "google" {
   region  = "us-west1"
   credentials = "umaidekita-test-5138e47aa144.json"
 }
-
+#Thanks Theo先生　
 # I'm doing this tonight while prepping my students for their sessions with Lizzo
 
 # comment there will be no diddy oil bootygasms here

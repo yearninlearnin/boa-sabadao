@@ -18,3 +18,12 @@ resource "google_compute_network" "comeda-brasileira" {
   delete_default_routes_on_create = false
 
 }
+
+resource "google_compute_network" "estou-com-fome" {
+  name                            = "estou-com-fome"
+  routing_mode                    = "REGIONAL"
+  auto_create_subnetworks         = false
+  mtu                             = 1460
+  delete_default_routes_on_create = false
+
+}
